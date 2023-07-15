@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chela+One&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Changer Website</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="same">
+                <h1>Text Changer Web App</h1>
+            </div>
+            <textarea oninput="c() , countWord()" id="te" cols="30" rows="10" class="text" placeholder="Enter Your Text Here"></textarea>
+            <div class="s">
+                <p>Characters Count</p>
+                <div class="op" id="c"></div>
+                <p>Word Count</p>
+                <div class="op" id="w" ></div>
+                <button>Uppercase</button>
+                <button>Lowercase</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
